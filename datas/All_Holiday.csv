@@ -1,0 +1,612 @@
+Date,Day,Holiday Name,Holiday Type
+2010-01-01,Friday,Republic Day/New Year's Day,National holiday
+2010-02-04,Thursday,Farmer's Day,Observance
+2010-02-13,Saturday,Chinese New Year's Eve,National holiday
+2010-02-14,Sunday,Chinese New Year's Day,National holiday
+2010-02-15,Monday,Chinese New Year Holiday,National holiday
+2010-02-16,Tuesday,Chinese New Year Holiday,National holiday
+2010-02-17,Wednesday,Chinese New Year Holiday,National holiday
+2010-02-18,Thursday,Chinese New Year Holiday,National holiday
+2010-02-28,Sunday,Tourism Day,Observance
+2010-02-28,Sunday,Lantern Festival,Observance
+2010-02-28,Sunday,Peace Memorial Day,National holiday
+2010-03-08,Monday,International Women's Day,Observance
+2010-03-12,Friday,Arbor Day,Observance
+2010-03-17,Wednesday,Earth God's Birthday,Observance
+2010-03-21,Sunday,March Equinox,Season
+2010-03-29,Monday,Youth Day,Observance
+2010-04-03,Saturday,Kuan Yin's Birthday,Observance
+2010-04-04,Sunday,Children's Day,Observance
+2010-04-04,Sunday,Easter Sunday,Observance
+2010-04-05,Monday,Tomb Sweeping Day,National holiday
+2010-04-28,Wednesday,God of Medicine's Birthday,Observance
+2010-05-01,Saturday,Labor Day,Private Sector
+2010-05-04,Tuesday,Literary Day,Observance
+2010-05-06,Thursday,Matsu's Birthday,Observance
+2010-05-09,Sunday,Mother's Day,Observance
+2010-05-21,Friday,Buddha's Birthday,Observance
+2010-06-03,Thursday,Opium Suppression Movement Day,Observance
+2010-06-16,Wednesday,Dragon Boat Festival,National holiday
+2010-06-21,Monday,June Solstice,Season
+2010-06-24,Thursday,Kuan Kung's Birthday,Observance
+2010-06-24,Thursday,Chen Huang's Birthday,Observance
+2010-08-08,Sunday,Father's Day,Observance
+2010-08-16,Monday,Chinese Valentine's Day,Observance
+2010-08-24,Tuesday,Hungry Ghost Festival,Observance
+2010-09-03,Friday,Armed Forces Day,National holiday
+2010-09-22,Wednesday,Mid-Autumn Festival,National holiday
+2010-09-23,Thursday,September Equinox,Season
+2010-09-28,Tuesday,Teachers' Day,Observance
+2010-10-10,Sunday,National Day,National holiday
+2010-10-16,Saturday,Double Ninth Day,Observance
+2010-10-21,Thursday,Overseas Chinese Day,Observance
+2010-10-25,Monday,Taiwan's Retrocession Day,Observance
+2010-10-31,Sunday,Halloween,Observance
+2010-11-12,Friday,Sun Yat-sen's Birthday,Observance
+2010-11-20,Saturday,Saisiat Festival,Observance
+2010-12-22,Wednesday,December Solstice,Season
+2010-12-22,Wednesday,Dōngzhì Festival,Observance
+2010-12-25,Saturday,Constitution Day,Observance
+2010-12-25,Saturday,Christmas Day,Observance
+2011-01-01,Saturday,Republic Day/New Year's Day,National holiday
+2011-02-02,Wednesday,Chinese New Year's Eve,National holiday
+2011-02-03,Thursday,Chinese New Year's Day,National holiday
+2011-02-04,Friday,Chinese New Year Holiday,National holiday
+2011-02-04,Friday,Farmer's Day,Observance
+2011-02-05,Saturday,Chinese New Year Holiday,National holiday
+2011-02-06,Sunday,Chinese New Year Holiday,National holiday
+2011-02-07,Monday,Chinese New Year Holiday,National holiday
+2011-02-17,Thursday,Lantern Festival,Observance
+2011-02-17,Thursday,Tourism Day,Observance
+2011-02-28,Monday,Peace Memorial Day,National holiday
+2011-03-06,Sunday,Earth God's Birthday,Observance
+2011-03-12,Saturday,Arbor Day,Observance
+2011-03-21,Monday,March Equinox,Season
+2011-03-23,Wednesday,Kuan Yin's Birthday,Observance
+2011-03-29,Tuesday,Youth Day,Observance
+2011-04-04,Monday,Women and Children's Day,Observance
+2011-04-05,Tuesday,Tomb Sweeping Day,National holiday
+2011-04-17,Sunday,God of Medicine's Birthday,Observance
+2011-04-24,Sunday,Easter Sunday,Observance
+2011-04-25,Monday,Matsu's Birthday,Observance
+2011-05-01,Sunday,Labor Day,Private Sector
+2011-05-04,Wednesday,Literary Day,Observance
+2011-05-08,Sunday,Mother's Day,Observance
+2011-05-10,Tuesday,Buddha's Birthday,Observance
+2011-06-03,Friday,Opium Suppression Movement Day,Observance
+2011-06-06,Monday,Dragon Boat Festival,National holiday
+2011-06-14,Tuesday,Kuan Kung's Birthday,Observance
+2011-06-14,Tuesday,Chen Huang's Birthday,Observance
+2011-06-22,Wednesday,June Solstice,Season
+2011-08-06,Saturday,Chinese Valentine's Day,Observance
+2011-08-08,Monday,Father's Day,Observance
+2011-08-14,Sunday,Hungry Ghost Festival,Observance
+2011-09-03,Saturday,Armed Forces Day,National holiday
+2011-09-12,Monday,Mid-Autumn Festival,National holiday
+2011-09-23,Friday,September Equinox,Season
+2011-09-28,Wednesday,Teachers' Day,Observance
+2011-10-05,Wednesday,Double Ninth Day,Observance
+2011-10-10,Monday,National Day,National holiday
+2011-10-21,Friday,Overseas Chinese Day,Observance
+2011-10-25,Tuesday,Taiwan's Retrocession Day,Observance
+2011-10-31,Monday,Halloween,Observance
+2011-11-12,Saturday,Sun Yat-sen's Birthday,Observance
+2011-12-22,Thursday,December Solstice,Season
+2011-12-22,Thursday,Dōngzhì Festival,Observance
+2011-12-25,Sunday,Constitution Day,Observance
+2011-12-25,Sunday,Christmas Day,Observance
+2012-01-01,Sunday,Republic Day/New Year's Day,National holiday
+2012-01-22,Sunday,Chinese New Year's Eve,National holiday
+2012-01-23,Monday,Chinese New Year's Day,National holiday
+2012-01-24,Tuesday,Chinese New Year Holiday,National holiday
+2012-01-25,Wednesday,Chinese New Year Holiday,National holiday
+2012-01-26,Thursday,Chinese New Year Holiday,National holiday
+2012-01-27,Friday,Chinese New Year Holiday,National holiday
+2012-02-04,Saturday,Farmer's Day,Observance
+2012-02-06,Monday,Lantern Festival,Observance
+2012-02-06,Monday,Tourism Day,Observance
+2012-02-23,Thursday,Earth God's Birthday,Observance
+2012-02-28,Tuesday,Peace Memorial Day,National holiday
+2012-03-11,Sunday,Kuan Yin's Birthday,Observance
+2012-03-12,Monday,Arbor Day,Observance
+2012-03-20,Tuesday,March Equinox,Season
+2012-03-29,Thursday,Youth Day,Observance
+2012-04-04,Wednesday,Tomb Sweeping Day,National holiday
+2012-04-04,Wednesday,Women and Children's Day,Observance
+2012-04-05,Thursday,God of Medicine's Birthday,Observance
+2012-04-08,Sunday,Easter Sunday,Observance
+2012-04-13,Friday,Matsu's Birthday,Observance
+2012-04-28,Saturday,Buddha's Birthday,Observance
+2012-05-01,Tuesday,Labor Day,Private Sector
+2012-05-04,Friday,Literary Day,Observance
+2012-05-13,Sunday,Mother's Day,Observance
+2012-06-03,Sunday,Opium Suppression Movement Day,Observance
+2012-06-21,Thursday,June Solstice,Season
+2012-06-23,Saturday,Dragon Boat Festival,National holiday
+2012-07-01,Sunday,Kuan Kung's Birthday,Observance
+2012-07-01,Sunday,Chen Huang's Birthday,Observance
+2012-08-08,Wednesday,Father's Day,Observance
+2012-08-23,Thursday,Chinese Valentine's Day,Observance
+2012-08-31,Friday,Hungry Ghost Festival,Observance
+2012-09-03,Monday,Armed Forces Day,National holiday
+2012-09-22,Saturday,September Equinox,Season
+2012-09-28,Friday,Teachers' Day,Observance
+2012-09-30,Sunday,Mid-Autumn Festival,National holiday
+2012-10-10,Wednesday,National Day,National holiday
+2012-10-21,Sunday,Overseas Chinese Day,Observance
+2012-10-23,Tuesday,Double Ninth Day,Observance
+2012-10-25,Thursday,Taiwan's Retrocession Day,Observance
+2012-10-31,Wednesday,Halloween,Observance
+2012-11-12,Monday,Sun Yat-sen's Birthday,Observance
+2012-11-28,Wednesday,Saisiat Festival,Observance
+2012-12-21,Friday,December Solstice,Season
+2012-12-21,Friday,Dōngzhì Festival,Observance
+2012-12-25,Tuesday,Constitution Day,Observance
+2012-12-25,Tuesday,Christmas Day,Observance
+2013-01-01,Tuesday,Republic Day/New Year's Day,National holiday
+2013-02-04,Monday,Farmer's Day,Observance
+2013-02-09,Saturday,Chinese New Year's Eve,National holiday
+2013-02-10,Sunday,Chinese New Year's Day,National holiday
+2013-02-11,Monday,Chinese New Year Holiday,National holiday
+2013-02-12,Tuesday,Chinese New Year Holiday,National holiday
+2013-02-13,Wednesday,Chinese New Year Holiday,National holiday
+2013-02-14,Thursday,Chinese New Year Holiday,National holiday
+2013-02-24,Sunday,Tourism Day,Observance
+2013-02-24,Sunday,Lantern Festival,Observance
+2013-02-28,Thursday,Peace Memorial Day,National holiday
+2013-03-12,Tuesday,Arbor Day,Observance
+2013-03-13,Wednesday,Earth God's Birthday,Observance
+2013-03-20,Wednesday,March Equinox,Season
+2013-03-29,Friday,Youth Day,Observance
+2013-03-30,Saturday,Kuan Yin's Birthday,Observance
+2013-03-31,Sunday,Easter Sunday,Observance
+2013-04-04,Thursday,Tomb Sweeping Day,National holiday
+2013-04-04,Thursday,Women and Children's Day,Observance
+2013-04-24,Wednesday,God of Medicine's Birthday,Observance
+2013-05-01,Wednesday,Labor Day,Private Sector
+2013-05-02,Thursday,Matsu's Birthday,Observance
+2013-05-04,Saturday,Literary Day,Observance
+2013-05-12,Sunday,Mother's Day,Observance
+2013-05-17,Friday,Buddha's Birthday,Observance
+2013-06-03,Monday,Opium Suppression Movement Day,Observance
+2013-06-12,Wednesday,Dragon Boat Festival,National holiday
+2013-06-20,Thursday,Kuan Kung's Birthday,Observance
+2013-06-20,Thursday,Chen Huang's Birthday,Observance
+2013-06-21,Friday,June Solstice,Season
+2013-08-08,Thursday,Father's Day,Observance
+2013-08-13,Tuesday,Chinese Valentine's Day,Observance
+2013-08-21,Wednesday,Hungry Ghost Festival,Observance
+2013-09-03,Tuesday,Armed Forces Day,Observance
+2013-09-19,Thursday,Mid-Autumn Festival,National holiday
+2013-09-23,Monday,September Equinox,Season
+2013-09-28,Saturday,Teachers' Day,Observance
+2013-10-10,Thursday,National Day,National holiday
+2013-10-13,Sunday,Double Ninth Day,Observance
+2013-10-21,Monday,Overseas Chinese Day,Observance
+2013-10-25,Friday,Taiwan's Retrocession Day,Observance
+2013-10-31,Thursday,Halloween,Observance
+2013-11-12,Tuesday,Sun Yat-sen's Birthday,Observance
+2013-12-22,Sunday,December Solstice,Season
+2013-12-22,Sunday,Dōngzhì Festival,Observance
+2013-12-25,Wednesday,Constitution Day,Observance
+2013-12-25,Wednesday,Christmas Day,Observance
+2014-01-01,Wednesday,Republic Day/New Year's Day,National holiday
+2014-01-30,Thursday,Chinese New Year's Eve,National holiday
+2014-01-31,Friday,Chinese New Year's Day,National holiday
+2014-02-01,Saturday,Chinese New Year Holiday,National holiday
+2014-02-02,Sunday,Chinese New Year Holiday,National holiday
+2014-02-03,Monday,Chinese New Year Holiday,National holiday
+2014-02-04,Tuesday,Chinese New Year Holiday,National holiday
+2014-02-04,Tuesday,Farmer's Day,Observance
+2014-02-14,Friday,Lantern Festival,Observance
+2014-02-14,Friday,Tourism Day,Observance
+2014-02-28,Friday,Peace Memorial Day,National holiday
+2014-03-02,Sunday,Earth God's Birthday,Observance
+2014-03-08,Saturday,International Women's Day,Observance
+2014-03-12,Wednesday,Arbor Day,Observance
+2014-03-19,Wednesday,Kuan Yin's Birthday,Observance
+2014-03-21,Friday,March Equinox,Season
+2014-03-29,Saturday,Youth Day,Observance
+2014-04-04,Friday,Children's Day,National holiday
+2014-04-05,Saturday,Tomb Sweeping Day,National holiday
+2014-04-14,Monday,God of Medicine's Birthday,Observance
+2014-04-20,Sunday,Easter Sunday,Observance
+2014-04-22,Tuesday,Matsu's Birthday,Observance
+2014-05-01,Thursday,Labor Day,Private Sector
+2014-05-04,Sunday,Literary Day,Observance
+2014-05-06,Tuesday,Buddha's Birthday,Observance
+2014-05-11,Sunday,Mother's Day,Observance
+2014-06-02,Monday,Dragon Boat Festival,National holiday
+2014-06-03,Tuesday,Opium Suppression Movement Day,Observance
+2014-06-10,Tuesday,Chen Huang's Birthday,Observance
+2014-06-10,Tuesday,Kuan Kung's Birthday,Observance
+2014-06-21,Saturday,June Solstice,Season
+2014-08-02,Saturday,Chinese Valentine's Day,Observance
+2014-08-08,Friday,Father's Day,Observance
+2014-08-10,Sunday,Hungry Ghost Festival,Observance
+2014-09-03,Wednesday,Armed Forces Day,Observance
+2014-09-08,Monday,Mid-Autumn Festival,National holiday
+2014-09-23,Tuesday,September Equinox,Season
+2014-09-28,Sunday,Teachers' Day,Observance
+2014-10-02,Thursday,Double Ninth Day,Observance
+2014-10-10,Friday,National Day,National holiday
+2014-10-21,Tuesday,Overseas Chinese Day,Observance
+2014-10-25,Saturday,Taiwan's Retrocession Day,Observance
+2014-10-31,Friday,Halloween,Observance
+2014-11-12,Wednesday,Sun Yat-sen's Birthday,Observance
+2014-12-06,Saturday,Saisiat Festival,Observance
+2014-12-22,Monday,Dōngzhì Festival,Observance
+2014-12-22,Monday,December Solstice,Season
+2014-12-25,Thursday,Constitution Day,Observance
+2014-12-25,Thursday,Christmas Day,Observance
+2014-12-27,Saturday,Special Working Day,Observance
+2015-01-01,Thursday,Republic Day/New Year's Day,National holiday
+2015-01-02,Friday,Bridge Public Holiday,National holiday
+2015-02-04,Wednesday,Farmer's Day,Observance
+2015-02-18,Wednesday,Chinese New Year's Eve,National holiday
+2015-02-19,Thursday,Chinese New Year's Day,National holiday
+2015-02-20,Friday,Chinese New Year Holiday,National holiday
+2015-02-21,Saturday,Chinese New Year Holiday,National holiday
+2015-02-22,Sunday,Chinese New Year Holiday,National holiday
+2015-02-23,Monday,Chinese New Year Holiday,National holiday
+2015-02-27,Friday,Peace Memorial Day observed,National holiday
+2015-02-28,Saturday,Peace Memorial Day,National holiday
+2015-03-05,Thursday,Lantern Festival,Observance
+2015-03-05,Thursday,Tourism Day,Observance
+2015-03-08,Sunday,International Women's Day,Observance
+2015-03-12,Thursday,Arbor Day,Observance
+2015-03-21,Saturday,Earth God's Birthday,Observance
+2015-03-21,Saturday,March Equinox,Season
+2015-03-29,Sunday,Youth Day,Observance
+2015-04-03,Friday,Children's Day observed,National holiday
+2015-04-04,Saturday,Children's Day,National holiday
+2015-04-05,Sunday,Tomb Sweeping Day,National holiday
+2015-04-05,Sunday,Easter Sunday,Observance
+2015-04-06,Monday,Tomb Sweeping Day holiday,National holiday
+2015-04-07,Tuesday,Kuan Yin's Birthday,Observance
+2015-05-01,Friday,Labor Day,Private Sector
+2015-05-03,Sunday,God of Medicine's Birthday,Observance
+2015-05-04,Monday,Literary Day,Observance
+2015-05-10,Sunday,Mother's Day,Observance
+2015-05-11,Monday,Matsu's Birthday,Observance
+2015-05-25,Monday,Buddha's Birthday,Observance
+2015-06-03,Wednesday,Opium Suppression Movement Day,Observance
+2015-06-19,Friday,Dragon Boat Festival holiday,National holiday
+2015-06-20,Saturday,Dragon Boat Festival,National holiday
+2015-06-22,Monday,June Solstice,Season
+2015-06-28,Sunday,Kuan Kung's Birthday,Observance
+2015-06-28,Sunday,Chen Huang's Birthday,Observance
+2015-08-08,Saturday,Father's Day,Observance
+2015-08-20,Thursday,Chinese Valentine's Day,Observance
+2015-08-28,Friday,Hungry Ghost Festival,Observance
+2015-09-03,Thursday,Armed Forces Day,Observance
+2015-09-23,Wednesday,September Equinox,Season
+2015-09-26,Saturday,Mid-Autumn Festival holiday,National holiday
+2015-09-27,Sunday,Mid-Autumn Festival,National holiday
+2015-09-28,Monday,Mid-Autumn Festival holiday,National holiday
+2015-09-28,Monday,Teachers' Day,Observance
+2015-10-09,Friday,National Day observed,National holiday
+2015-10-10,Saturday,National Day,National holiday
+2015-10-21,Wednesday,Double Ninth Day,Observance
+2015-10-21,Wednesday,Overseas Chinese Day,Observance
+2015-10-25,Sunday,Taiwan's Retrocession Day,Observance
+2015-10-31,Saturday,Halloween,Observance
+2015-11-12,Thursday,Sun Yat-sen's Birthday,Observance
+2015-12-22,Tuesday,December Solstice,Season
+2015-12-22,Tuesday,Dōngzhì Festival,Observance
+2015-12-25,Friday,Constitution Day,Observance
+2015-12-25,Friday,Christmas Day,Observance
+2016-01-01,Friday,Republic Day/New Year's Day,National holiday
+2016-02-04,Thursday,Farmer's Day,Observance
+2016-02-07,Sunday,Chinese New Year's Eve,National holiday
+2016-02-08,Monday,Chinese New Year's Day,National holiday
+2016-02-09,Tuesday,Chinese New Year Holiday,National holiday
+2016-02-10,Wednesday,Chinese New Year Holiday,National holiday
+2016-02-11,Thursday,Chinese New Year Holiday,National holiday
+2016-02-12,Friday,Chinese New Year Holiday,National holiday
+2016-02-22,Monday,Lantern Festival,Observance
+2016-02-22,Monday,Tourism Day,Observance
+2016-02-28,Sunday,Peace Memorial Day,National holiday
+2016-02-29,Monday,Peace Memorial Day observed,National holiday
+2016-03-08,Tuesday,International Women's Day,Observance
+2016-03-10,Thursday,Earth God's Birthday,Observance
+2016-03-12,Saturday,Arbor Day,Observance
+2016-03-20,Sunday,March Equinox,Season
+2016-03-27,Sunday,Easter Sunday,Observance
+2016-03-27,Sunday,Kuan Yin's Birthday,Observance
+2016-03-29,Tuesday,Youth Day,Observance
+2016-04-04,Monday,Children's Day,National holiday
+2016-04-05,Tuesday,Tomb Sweeping Day,National holiday
+2016-04-21,Thursday,God of Medicine's Birthday,Observance
+2016-04-29,Friday,Matsu's Birthday,Observance
+2016-05-01,Sunday,Labor Day,Private Sector
+2016-05-02,Monday,Labor Day observed,Private Sector
+2016-05-04,Wednesday,Literary Day,Observance
+2016-05-08,Sunday,Mother's Day,Observance
+2016-05-14,Saturday,Buddha's Birthday,Observance
+2016-06-03,Friday,Opium Suppression Movement Day,Observance
+2016-06-09,Thursday,Dragon Boat Festival,National holiday
+2016-06-10,Friday,Dragon Boat Festival holiday,National holiday
+2016-06-17,Friday,Chen Huang's Birthday,Observance
+2016-06-17,Friday,Kuan Kung's Birthday,Observance
+2016-06-21,Tuesday,June Solstice,Season
+2016-08-08,Monday,Father's Day,Observance
+2016-08-09,Tuesday,Chinese Valentine's Day,Observance
+2016-08-17,Wednesday,Hungry Ghost Festival,Observance
+2016-09-03,Saturday,Armed Forces Day,Observance
+2016-09-15,Thursday,Mid-Autumn Festival,National holiday
+2016-09-22,Thursday,September Equinox,Season
+2016-09-28,Wednesday,Teachers' Day,Observance
+2016-10-09,Sunday,Double Ninth Day,Observance
+2016-10-10,Monday,National Day,National holiday
+2016-10-21,Friday,Overseas Chinese Day,Observance
+2016-10-25,Tuesday,Taiwan's Retrocession Day,Observance
+2016-10-31,Monday,Halloween,Observance
+2016-11-12,Saturday,Sun Yat-sen's Birthday,Observance
+2016-11-14,Monday,Saisiat Festival,Observance
+2016-12-21,Wednesday,December Solstice,Season
+2016-12-21,Wednesday,Dōngzhì Festival,Observance
+2016-12-25,Sunday,Constitution Day,Observance
+2016-12-25,Sunday,Christmas Day,Observance
+2017-01-01,Sunday,Republic Day/New Year's Day,National holiday
+2017-01-02,Monday,Republic Day/New Year's Day observed,National holiday
+2017-01-27,Friday,Chinese New Year's Eve,National holiday
+2017-01-28,Saturday,Chinese New Year's Day,National holiday
+2017-01-29,Sunday,Chinese New Year Holiday,National holiday
+2017-01-30,Monday,Chinese New Year Holiday,National holiday
+2017-01-31,Tuesday,Chinese New Year Holiday,National holiday
+2017-02-01,Wednesday,Chinese New Year Holiday,National holiday
+2017-02-04,Saturday,Farmer's Day,Observance
+2017-02-11,Saturday,Lantern Festival,Observance
+2017-02-11,Saturday,Tourism Day,Observance
+2017-02-25,Saturday,Peace Memorial Day,National holiday
+2017-02-26,Sunday,Peace Memorial Day,National holiday
+2017-02-27,Monday,Earth God's Birthday,Observance
+2017-02-28,Tuesday,Peace Memorial Day,National holiday
+2017-03-08,Wednesday,International Women's Day,Observance
+2017-03-12,Sunday,Arbor Day,Observance
+2017-03-16,Thursday,Kuan Yin's Birthday,Observance
+2017-03-20,Monday,March Equinox,Season
+2017-03-29,Wednesday,Youth Day,Observance
+2017-04-03,Monday,Children's Day,National holiday
+2017-04-05,Wednesday,Tomb Sweeping Day,National holiday
+2017-04-11,Tuesday,God of Medicine's Birthday,Observance
+2017-04-16,Sunday,Easter Sunday,Observance
+2017-04-19,Wednesday,Matsu's Birthday,Observance
+2017-05-01,Monday,Labor Day,Private Sector
+2017-05-03,Wednesday,Buddha's Birthday,Observance
+2017-05-04,Thursday,Literary Day,Observance
+2017-05-14,Sunday,Mother's Day,Observance
+2017-05-30,Tuesday,Dragon Boat Festival,National holiday
+2017-06-03,Saturday,Opium Suppression Movement Day,Observance
+2017-06-07,Wednesday,Kuan Kung's Birthday,Observance
+2017-06-07,Wednesday,Chen Huang's Birthday,Observance
+2017-06-21,Wednesday,June Solstice,Season
+2017-08-08,Tuesday,Father's Day,Observance
+2017-08-28,Monday,Chinese Valentine's Day,Observance
+2017-09-03,Sunday,Armed Forces Day,Observance
+2017-09-05,Tuesday,Hungry Ghost Festival,Observance
+2017-09-23,Saturday,September Equinox,Season
+2017-09-28,Thursday,Teachers' Day,Observance
+2017-10-04,Wednesday,Mid-Autumn Festival,National holiday
+2017-10-10,Tuesday,National Day,National holiday
+2017-10-21,Saturday,Overseas Chinese Day,Observance
+2017-10-25,Wednesday,Taiwan's Retrocession Day,Observance
+2017-10-28,Saturday,Double Ninth Day,Observance
+2017-10-31,Tuesday,Halloween,Observance
+2017-11-12,Sunday,Sun Yat-sen's Birthday,Observance
+2017-12-22,Friday,December Solstice,Season
+2017-12-22,Friday,Dōngzhì Festival,Observance
+2017-12-25,Monday,Constitution Day,Observance
+2017-12-25,Monday,Christmas Day,Observance
+2018-01-01,Monday,Republic Day/New Year's Day,National holiday
+2018-02-04,Sunday,Farmer's Day,Observance
+2018-02-15,Thursday,Chinese New Year's Eve,National holiday
+2018-02-16,Friday,Chinese New Year's Day,National holiday
+2018-02-17,Saturday,Chinese New Year Holiday,National holiday
+2018-02-18,Sunday,Chinese New Year Holiday,National holiday
+2018-02-19,Monday,Chinese New Year Holiday,National holiday
+2018-02-20,Tuesday,Chinese New Year Holiday,National holiday
+2018-02-28,Wednesday,Peace Memorial Day,National holiday
+2018-03-02,Friday,Lantern Festival,Observance
+2018-03-02,Friday,Tourism Day,Observance
+2018-03-08,Thursday,International Women's Day,Observance
+2018-03-12,Monday,Arbor Day,Observance
+2018-03-18,Sunday,Earth God's Birthday,Observance
+2018-03-21,Wednesday,March Equinox,Season
+2018-03-29,Thursday,Youth Day,Observance
+2018-04-01,Sunday,Easter Sunday,Observance
+2018-04-04,Wednesday,Children's Day,National holiday
+2018-04-04,Wednesday,Kuan Yin's Birthday,Observance
+2018-04-05,Thursday,Tomb Sweeping Day,National holiday
+2018-04-30,Monday,God of Medicine's Birthday,Observance
+2018-05-01,Tuesday,Labor Day,Private Sector
+2018-05-04,Friday,Literary Day,Observance
+2018-05-08,Tuesday,Matsu's Birthday,Observance
+2018-05-13,Sunday,Mother's Day,Observance
+2018-05-22,Tuesday,Buddha's Birthday,Observance
+2018-06-03,Sunday,Opium Suppression Movement Day,Observance
+2018-06-18,Monday,Dragon Boat Festival,National holiday
+2018-06-21,Thursday,June Solstice,Season
+2018-06-26,Tuesday,Kuan Kung's Birthday,Observance
+2018-06-26,Tuesday,Chen Huang's Birthday,Observance
+2018-08-08,Wednesday,Father's Day,Observance
+2018-08-17,Friday,Chinese Valentine's Day,Observance
+2018-08-25,Saturday,Hungry Ghost Festival,Observance
+2018-09-03,Monday,Armed Forces Day,Observance
+2018-09-23,Sunday,September Equinox,Season
+2018-09-24,Monday,Mid-Autumn Festival,National holiday
+2018-09-28,Friday,Teachers' Day,Observance
+2018-10-10,Wednesday,National Day,National holiday
+2018-10-17,Wednesday,Double Ninth Day,Observance
+2018-10-21,Sunday,Overseas Chinese Day,Observance
+2018-10-25,Thursday,Taiwan's Retrocession Day,Observance
+2018-10-31,Wednesday,Halloween,Observance
+2018-11-12,Monday,Sun Yat-sen's Birthday,Observance
+2018-11-22,Thursday,Saisiat Festival,Observance
+2018-12-22,Saturday,December Solstice,Season
+2018-12-22,Saturday,Dōngzhì Festival,Observance
+2018-12-25,Tuesday,Christmas Day,Observance
+2018-12-25,Tuesday,Constitution Day,Observance
+2019-01-01,Tuesday,Republic Day/New Year's Day,National holiday
+2019-02-02,Saturday,Chinese New Year Holiday,National holiday
+2019-02-03,Sunday,Chinese New Year Holiday,National holiday
+2019-02-04,Monday,Chinese New Year's Eve,National holiday
+2019-02-04,Monday,Farmer's Day,Observance
+2019-02-05,Tuesday,Chinese New Year's Day,National holiday
+2019-02-06,Wednesday,Chinese New Year Holiday,National holiday
+2019-02-07,Thursday,Chinese New Year Holiday,National holiday
+2019-02-08,Friday,Chinese New Year Holiday,National holiday
+2019-02-09,Saturday,Chinese New Year Holiday,National holiday
+2019-02-10,Sunday,Chinese New Year Holiday,National holiday
+2019-02-19,Tuesday,Lantern Festival,Observance
+2019-02-19,Tuesday,Tourism Day,Observance
+2019-02-28,Thursday,Peace Memorial Day,National holiday
+2019-03-08,Friday,International Women's Day,Observance
+2019-03-08,Friday,Earth God's Birthday,Observance
+2019-03-12,Tuesday,Arbor Day,Observance
+2019-03-21,Thursday,March Equinox,Season
+2019-03-25,Monday,Kuan Yin's Birthday,Observance
+2019-03-29,Friday,Youth Day,Observance
+2019-04-04,Thursday,Children's Day,National holiday
+2019-04-05,Friday,Tomb Sweeping Day,National holiday
+2019-04-19,Friday,God of Medicine's Birthday,Observance
+2019-04-21,Sunday,Easter Sunday,Observance
+2019-04-27,Saturday,Matsu's Birthday,Observance
+2019-05-01,Wednesday,Labor Day,Private Sector
+2019-05-04,Saturday,Literary Day,Observance
+2019-05-12,Sunday,Mother's Day,Observance
+2019-05-12,Sunday,Buddha's Birthday,Observance
+2019-06-03,Monday,Opium Suppression Movement Day,Observance
+2019-06-07,Friday,Dragon Boat Festival,National holiday
+2019-06-15,Saturday,Kuan Kung's Birthday,Observance
+2019-06-15,Saturday,Chen Huang's Birthday,Observance
+2019-06-21,Friday,June Solstice,Season
+2019-08-07,Wednesday,Chinese Valentine's Day,Observance
+2019-08-08,Thursday,Father's Day,Observance
+2019-08-15,Thursday,Hungry Ghost Festival,Observance
+2019-09-03,Tuesday,Armed Forces Day,Observance
+2019-09-13,Friday,Mid-Autumn Festival,National holiday
+2019-09-23,Monday,September Equinox,Season
+2019-09-28,Saturday,Teachers' Day,Observance
+2019-10-07,Monday,Double Ninth Day,Observance
+2019-10-10,Thursday,National Day,National holiday
+2019-10-21,Monday,Overseas Chinese Day,Observance
+2019-10-25,Friday,Taiwan's Retrocession Day,Observance
+2019-10-31,Thursday,Halloween,Observance
+2019-11-12,Tuesday,Sun Yat-sen's Birthday,Observance
+2019-12-22,Sunday,Dōngzhì Festival,Observance
+2019-12-22,Sunday,December Solstice,Season
+2019-12-25,Wednesday,Constitution Day,Observance
+2019-12-25,Wednesday,Christmas Day,Observance
+2020-01-01,Wednesday,Republic Day/New Year's Day,National holiday
+2020-01-23,Thursday,Chinese New Year Holiday,National holiday
+2020-01-24,Friday,Chinese New Year's Eve,National holiday
+2020-01-25,Saturday,Chinese New Year's Day,National holiday
+2020-01-26,Sunday,Chinese New Year Holiday,National holiday
+2020-01-27,Monday,Chinese New Year Holiday,National holiday
+2020-01-28,Tuesday,Chinese New Year Holiday,National holiday
+2020-01-29,Wednesday,Chinese New Year Holiday,National holiday
+2020-02-04,Tuesday,Farmer's Day,Observance
+2020-02-08,Saturday,Lantern Festival,Observance
+2020-02-08,Saturday,Tourism Day,Observance
+2020-02-15,Saturday,Make up Day for Lunar New Year Holiday,Observance
+2020-02-24,Monday,Earth God's Birthday,Observance
+2020-02-28,Friday,Peace Memorial Day,National holiday
+2020-03-08,Sunday,International Women's Day,Observance
+2020-03-12,Thursday,Arbor Day,Observance
+2020-03-12,Thursday,Kuan Yin's Birthday,Observance
+2020-03-20,Friday,March Equinox,Season
+2020-03-29,Sunday,Youth Day,Observance
+2020-04-02,Thursday,Children's Day Holiday,National holiday
+2020-04-03,Friday,Tomb Sweeping Day holiday,National holiday
+2020-04-04,Saturday,Tomb Sweeping Day,National holiday
+2020-04-04,Saturday,Children's Day,National holiday
+2020-04-07,Tuesday,God of Medicine's Birthday,Observance
+2020-04-12,Sunday,Easter Sunday,Observance
+2020-04-15,Wednesday,Matsu's Birthday,Observance
+2020-04-30,Thursday,Buddha's Birthday,Observance
+2020-05-01,Friday,Labor Day,Private Sector
+2020-05-04,Monday,Literary Day,Observance
+2020-05-10,Sunday,Mother's Day,Observance
+2020-06-03,Wednesday,Opium Suppression Movement Day,Observance
+2020-06-20,Saturday,Make up Day for Dragon Boat Festival Holiday,Observance
+2020-06-21,Sunday,June Solstice,Season
+2020-06-25,Thursday,Dragon Boat Festival,National holiday
+2020-06-26,Friday,Dragon Boat Festival holiday,National holiday
+2020-07-03,Friday,Kuan Kung's Birthday,Observance
+2020-07-03,Friday,Chen Huang's Birthday,Observance
+2020-08-08,Saturday,Father's Day,Observance
+2020-08-25,Tuesday,Chinese Valentine's Day,Observance
+2020-09-02,Wednesday,Hungry Ghost Festival,Observance
+2020-09-03,Thursday,Armed Forces Day,Observance
+2020-09-22,Tuesday,September Equinox,Season
+2020-09-26,Saturday,Make up Day for Mid Autumn Festival Holiday,Observance
+2020-09-28,Monday,Teachers' Day,Observance
+2020-10-01,Thursday,Mid-Autumn Festival,National holiday
+2020-10-02,Friday,Mid-Autumn Festival holiday,National holiday
+2020-10-09,Friday,National Day observed,National holiday
+2020-10-10,Saturday,National Day,National holiday
+2020-10-21,Wednesday,Overseas Chinese Day,Observance
+2020-10-25,Sunday,Taiwan's Retrocession Day,Observance
+2020-10-25,Sunday,Double Ninth Day,Observance
+2020-10-31,Saturday,Halloween,Observance
+2020-11-12,Thursday,Sun Yat-sen's Birthday,Observance
+2020-11-29,Sunday,Saisiat Festival,Observance
+2020-12-21,Monday,December Solstice,Season
+2020-12-21,Monday,Dōngzhì Festival,Observance
+2020-12-25,Friday,Constitution Day,Observance
+2020-12-25,Friday,Christmas Day,Observance
+2021-01-01,Friday,Republic Day/New Year's Day,National holiday
+2021-02-04,Thursday,Farmer's Day,Observance
+2021-02-11,Thursday,Chinese New Year's Eve,National holiday
+2021-02-12,Friday,Chinese New Year's Day,National holiday
+2021-02-13,Saturday,Chinese New Year Holiday,National holiday
+2021-02-14,Sunday,Chinese New Year Holiday,National holiday
+2021-02-15,Monday,Chinese New Year Holiday,National holiday
+2021-02-16,Tuesday,Chinese New Year Holiday,National holiday
+2021-02-26,Friday,Lantern Festival,Observance
+2021-02-26,Friday,Tourism Day,Observance
+2021-02-28,Sunday,Peace Memorial Day,National holiday
+2021-03-01,Monday,Peace Memorial Day observed,National holiday
+2021-03-08,Monday,International Women's Day,Observance
+2021-03-12,Friday,Arbor Day,Observance
+2021-03-14,Sunday,Earth God's Birthday,Observance
+2021-03-20,Saturday,March Equinox,Season
+2021-03-29,Monday,Youth Day,Observance
+2021-03-31,Wednesday,Kuan Yin's Birthday,Observance
+2021-04-04,Sunday,Children's Day,National holiday
+2021-04-04,Sunday,Easter Sunday,Observance
+2021-04-05,Monday,Tomb Sweeping Day,National holiday
+2021-04-05,Monday,Children's Day observed,National holiday
+2021-04-26,Monday,God of Medicine's Birthday,Observance
+2021-04-30,Friday,Labor Day observed,Private Sector
+2021-05-01,Saturday,Labor Day,Private Sector
+2021-05-04,Tuesday,Literary Day,Observance
+2021-05-04,Tuesday,Matsu's Birthday,Observance
+2021-05-09,Sunday,Mother's Day,Observance
+2021-05-19,Wednesday,Buddha's Birthday,Observance
+2021-06-03,Thursday,Opium Suppression Movement Day,Observance
+2021-06-14,Monday,Dragon Boat Festival,National holiday
+2021-06-21,Monday,June Solstice,Season
+2021-06-22,Tuesday,Chen Huang's Birthday,Observance
+2021-06-22,Tuesday,Kuan Kung's Birthday,Observance
+2021-08-08,Sunday,Father's Day,Observance
+2021-08-14,Saturday,Chinese Valentine's Day,Observance
+2021-08-22,Sunday,Hungry Ghost Festival,Observance
+2021-09-03,Friday,Armed Forces Day,Observance
+2021-09-21,Tuesday,Mid-Autumn Festival,National holiday
+2021-09-23,Thursday,September Equinox,Season
+2021-09-28,Tuesday,Teachers' Day,Observance
+2021-10-10,Sunday,National Day,National holiday
+2021-10-11,Monday,National Day observed,National holiday
+2021-10-14,Thursday,Double Ninth Day,Observance
+2021-10-21,Thursday,Overseas Chinese Day,Observance
+2021-10-25,Monday,Taiwan's Retrocession Day,Observance
+2021-10-31,Sunday,Halloween,Observance
+2021-11-12,Friday,Sun Yat-sen's Birthday,Observance
+2021-12-21,Tuesday,Dōngzhì Festival,Observance
+2021-12-21,Tuesday,December Solstice,Season
+2021-12-25,Saturday,Constitution Day,Observance
+2021-12-25,Saturday,Christmas Day,Observance
+2021-12-31,Friday,Republic Day/New Year's Day observed,National holiday
