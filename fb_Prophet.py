@@ -155,7 +155,7 @@ def validation(model,data,city,y_predict,number_of_day_initial,period,horizon):
 def on_CNY_season(data):
     #This function will determine whether the date was a week before CNY
 
-    df=pd.read_csv("Dataset/Holiday/All_Holiday.csv")
+    df=pd.read_csv("datas/All_Holiday.csv")
     df=df[df["Holiday Name"]=="Chinese New Year's Eve"]
     df_date=pd.to_datetime(df["Date"],format="%Y-%m-%d")
 
@@ -209,8 +209,8 @@ def fitting_model(data,city,weather_included=False,holiday_included=False,CNY_se
     if CNY_season:
         m.weekly_seasonality=False
         m.yearly_seasonality=False
-        m.add_seasonality(name="Weekly on CNY Season",period=7,fourier_order=3,condition_name="CNY season")
-        m.add_seasonality(name="Weekly on other dates",period=7,fourier_order=3,condition_name="Other season",prior_scale=0.01)
+        #m.add_seasonality(name="Weekly on CNY Season",period=7,fourier_order=3,condition_name="CNY season")
+        #m.add_seasonality(name="Weekly on other dates",period=7,fourier_order=3,condition_name="Other season",prior_scale=0.01)
         m.add_seasonality(name="Spring Season",period=91.5,fourier_order=10,prior_scale=1,condition_name='Spring')
         m.add_seasonality(name="Summer Season",period=91.5,fourier_order=10,prior_scale=1,condition_name='Summer')
         m.add_seasonality(name="Autumn Season",period=91.5,fourier_order=10,prior_scale=1,condition_name='Autumn')
@@ -247,10 +247,10 @@ def fitting_model(data,city,weather_included=False,holiday_included=False,CNY_se
         future_date["Weather"]=temperature
 
     if CNY_season:
-        future_date["CNY season"],future_date["Yearly season"]=on_CNY_season(future_date)
-        future_date["Other season"]=~future_date["CNY season"]
+        #future_date["CNY season"],future_date["Yearly season"]=on_CNY_season(future_date)
+        #future_date["Other season"]=~future_date["CNY season"]
         future_date["Spring"],future_date["Summer"],future_date["Autumn"],future_date["Winter"]=summer_wintter_spring_auttum(future_date)
-        future_date.to_csv("Testing.csv",index=False)
+        #future_date.to_csv("Testing.csv",index=False)
 
     #predict future price
     
@@ -272,6 +272,6 @@ def fitting_model(data,city,weather_included=False,holiday_included=False,CNY_se
 if __name__=='__main__':
     import preprocessing
     data=preprocessing.preprocessing()
-    result=fitting_model(data,'Taipei',holiday_included=True,last_7_days_validation=True)
+    result=fitting_model(data,'Taipei',holiday_included=True,last_7_days_validation=True,CNY_season=False)
     print(result['ds'].tail(7))
     plt.show()
