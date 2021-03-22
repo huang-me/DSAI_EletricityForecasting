@@ -237,7 +237,6 @@ def fitting_model(data,weather_included=False,holiday_included=False,CNY_season=
 
     #plot the corss validation erro
     #validation(m,data,city,future,"1825 days","100 days","100 days")
-    print(data_copy[-7:])
     if last_7_days_validation:
         print(f"RMSE:{rmse(future['yhat'].tail(7),data_copy[-7:].Reserve)}")
     return future
