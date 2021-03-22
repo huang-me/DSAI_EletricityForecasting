@@ -14,10 +14,6 @@ from sklearn.metrics import mean_squared_error
 import pandas as pd
 
 dataset_path="Dataset/Weather/"
-weather_csv_location={"台北":dataset_path+"台北/臺北/all_weather.csv","台中":dataset_path+"台中/西屯/all_weather.csv"}
-
-
-
 
 def remove_outlier(data,varname):
     remove_threshold=3
@@ -68,38 +64,6 @@ def get_weather_info(weather_csv,date):
         temperature.append(temp)
     return temperature
 
-def mean_absolute_percentage_error(y_true,y_predict):
-    y_true,y_predict=np.array(y_true),np.array(y_predict)
-    return np.mean(np.abs((y_true-y_predict)/y_true))*100
-
-def compare_predict_raw(y_predict,csv_name,city,date_begin,date_end):
-    df=pd.read_csv(csv_name)
-    df=extract_data(df,date_begin,date_end,city)
-
-    date=df["Date"]
-    #Extract predicted price from y_prediict
-    predicted_price=[]
-    price_difference=[]
-    for i in date:
-        temp_predicted=y_predict[y_predict['ds']==i]['yhat']
-        temp_origin=df[df["Date"]==i]["平均價"]
-        try:
-            predicted_price.append(temp_predicted.item())
-            price_difference.append(abs(float(temp_predicted.item())-float(temp_origin.item())))
-        except:
-            print(i)
-
-    figure=plt.figure(city_name[city]+" Predicted vs Real",figsize=(18,6)) 
-    price_plot=figure.add_subplot(111)
-
-    price_plot.plot(date,df["平均價"],label="Raw Data")
-    price_plot.plot(date,predicted_price,label="predicted")
-    mape=mean_absolute_percentage_error(df["平均價"],predicted_price)
-    print(f"The mape of actual 2020 year is {mape}%")
-
-    price_plot.legend()
-    price_plot.grid()
-
 def summer_wintter_spring_auttum(df):
     ds=pd.to_datetime(df["ds"],format="%Y-%m-%d")
     
@@ -145,7 +109,7 @@ def validation(model,data,city,y_predict,number_of_day_initial,period,horizon):
     df_cv=cross_validation(model,initial=number_of_day_initial,period=period,horizon=horizon)
     df_p=performance_metrics(df_cv)
     fig4=plot_cross_validation_metric(df_cv,metric='rmse')
-    fig4.canvas.set_window_title(city_name[city]+" cross validation")
+    fig4.canvas.set_window_title("cross validation")
 
     #calculating the mean absolute percentage error(MAPE)
     mape=mean_absolute_percentage_error(df_cv.y,df_cv.yhat)
@@ -192,14 +156,15 @@ def on_CNY_season(data):
 def rmse(y_predicted, y_actual):
     return sqrt(mean_squared_error(y_actual, y_predicted))
 
-def fitting_model(data,city,weather_included=False,holiday_included=False,CNY_season=False,last_7_days_validation=False):
+def fitting_model(data,weather_included=False,holiday_included=False,CNY_season=False,last_7_days_validation=False,four_season=False):
     #change the format of date
+    data_copy=data.copy()
     temp=[]
-    for i in range (len(data)):
-        str_date=str(data.iloc[i]["Date"])
+    for i in range (len(data_copy)):
+        str_date=str(data_copy.iloc[i]["Date"])
         temp.append(datetime.strptime(str_date,'%Y%m%d'))
-    data['Date']=temp
-    data=remove_outlier(data,'Reserve')
+    data_copy['Date']=temp
+    data_copy=remove_outlier(data_copy,'Reserve')
     #Config the model used
     #m=Prophet(daily_seasonality=False,changepoint_prior_scale=0.1,holidays_prior_scale=0.1)
     m=Prophet(daily_seasonality=False)
@@ -209,16 +174,20 @@ def fitting_model(data,city,weather_included=False,holiday_included=False,CNY_se
     if CNY_season:
         m.weekly_seasonality=False
         m.yearly_seasonality=False
-        #m.add_seasonality(name="Weekly on CNY Season",period=7,fourier_order=3,condition_name="CNY season")
-        #m.add_seasonality(name="Weekly on other dates",period=7,fourier_order=3,condition_name="Other season",prior_scale=0.01)
-        m.add_seasonality(name="Spring Season",period=91.5,fourier_order=10,prior_scale=1,condition_name='Spring')
-        m.add_seasonality(name="Summer Season",period=91.5,fourier_order=10,prior_scale=1,condition_name='Summer')
-        m.add_seasonality(name="Autumn Season",period=91.5,fourier_order=10,prior_scale=1,condition_name='Autumn')
-        m.add_seasonality(name="Winter Season",period=91.5,fourier_order=10,prior_scale=1,condition_name='Winter')
+        m.add_seasonality(name="Weekly on CNY Season",period=7,fourier_order=3,condition_name="CNY season")
+        m.add_seasonality(name="Weekly on other dates",period=7,fourier_order=3,condition_name="Other season")
+
+    if four_season:
+        m.weekly_seasonality=False
+        m.yearly_seasonality=False
+        m.add_seasonality(name="Spring Season",period=91.5,fourier_order=5,prior_scale=1,condition_name='Spring')
+        m.add_seasonality(name="Summer Season",period=91.5,fourier_order=5,prior_scale=1,condition_name='Summer')
+        m.add_seasonality(name="Autumn Season",period=91.5,fourier_order=5,prior_scale=1,condition_name='Autumn')
+        m.add_seasonality(name="Winter Season",period=91.5,fourier_order=5,prior_scale=1,condition_name='Winter')
 
     
 
-    data_history=pd.DataFrame({'ds':data["Date"],"y":data['Reserve']})
+    data_history=pd.DataFrame({'ds':data_copy["Date"],"y":data_copy['Reserve']})
 
     if last_7_days_validation:
         data_history=data_history[:-7]
@@ -226,15 +195,17 @@ def fitting_model(data,city,weather_included=False,holiday_included=False,CNY_se
 
     if weather_included:
         #Get temperature info
+        '''
         weather_csv=pd.read_csv(weather_csv_location[city])
         date=data["Date"]
         temperature=get_weather_info(weather_csv,date)
         data_history["Weather"]=temperature
         m.add_regressor('Weather')
+        '''
     if CNY_season:
         data_history["CNY season"],data_history["Yearly season"]=on_CNY_season(data_history)
         data_history["Other season"]=~data_history["CNY season"]
-
+    if four_season:
         data_history["Spring"],data_history["Summer"],data_history["Autumn"],data_history["Winter"]=summer_wintter_spring_auttum(data_history)
 
     #Predict one year ahead
@@ -242,36 +213,39 @@ def fitting_model(data,city,weather_included=False,holiday_included=False,CNY_se
     future_date = m.make_future_dataframe(periods=7)
 
     if weather_included:
+        '''
         temp=pd.to_datetime(future_date['ds'],format="%Y-%m-%d")
         temperature=get_weather_info(weather_csv,temp.dt.date)
         future_date["Weather"]=temperature
+        '''
 
     if CNY_season:
-        #future_date["CNY season"],future_date["Yearly season"]=on_CNY_season(future_date)
-        #future_date["Other season"]=~future_date["CNY season"]
+        future_date["CNY season"],future_date["Yearly season"]=on_CNY_season(future_date)
+        future_date["Other season"]=~future_date["CNY season"]
+
+    if four_season:
         future_date["Spring"],future_date["Summer"],future_date["Autumn"],future_date["Winter"]=summer_wintter_spring_auttum(future_date)
-        #future_date.to_csv("Testing.csv",index=False)
 
     #predict future price
     
     future=m.predict(future_date)
 
-    fig3=m.plot(future)
-    #fig3.canvas.set_window_title(city_name[city]+" Prediction")
-    fig2=m.plot_components(future)
-    #fig2.canvas.set_window_title(city_name[city]+" Component")
+    #fig3=m.plot(future)
+    #fig3.canvas.set_window_title("Prediction")
+    #fig2=m.plot_components(future)
+    #fig2.canvas.set_window_title("Component")
 
     #plot the corss validation erro
     #validation(m,data,city,future,"1825 days","100 days","100 days")
-    print(data[-7:])
+    print(data_copy[-7:])
     if last_7_days_validation:
-        print(f"RMSE:{rmse(future['yhat'].tail(7),data[-7:].Reserve)}")
+        print(f"RMSE:{rmse(future['yhat'].tail(7),data_copy[-7:].Reserve)}")
     return future
 
 
 if __name__=='__main__':
     import preprocessing
     data=preprocessing.preprocessing()
-    result=fitting_model(data,'Taipei',holiday_included=True,last_7_days_validation=True,CNY_season=False)
+    result=fitting_model(data,holiday_included=True,last_7_days_validation=True,CNY_season=False,four_season=True)
     print(result['ds'].tail(7))
     plt.show()

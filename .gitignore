@@ -1,1 +1,5 @@
 .ipynb_checkpoints
+datas/air_quality/
+test.ipynb
+__pycache__/
+Testing.csv

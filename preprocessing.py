@@ -35,9 +35,9 @@ def preprocessing(f1='Taipower_20140101_20171231.csv', f2='TaiPower_20180101_201
     data_20_201215['日期'] = pd.to_datetime(data_20_201215['日期'], format="%Y/%m/%d").dt.strftime("%Y%m%d")
     data_20 = data_20_201215[data_20_201215['日期'] <= '20201231']
     data_20 = data_20[['日期', '備轉容量(萬瓩)']]
-    rename_dict = {'日期': 'date', '備轉容量(萬瓩)': 'reserve'}
+    rename_dict = {'日期': 'Date', '備轉容量(萬瓩)': 'Reserve'}
     data_20.rename(columns=rename_dict, inplace=True)
-    data_20['reserve'] = data_20['reserve']*10
+    data_20['Reserve'] = data_20['Reserve']*10
     
     #Download and format the newest data
     url_link='http://data.taipower.com.tw/opendata/apply/file/d006002/本年度每日尖峰備轉容量率.csv'
