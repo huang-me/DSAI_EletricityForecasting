@@ -1,7 +1,3 @@
----
-title: DSAI_hw1
----
-
 DSAI_hw1
 ===
 
@@ -24,6 +20,6 @@ How to run
 
 Datas
 ---
-Electric load history files (2014~2021)  
-Holiday datas (2010~2021)  
+Electric load history files (2014-2021)  
+Holiday datas (2010-2021)  
 Calcualte date split date into 4 seasons  
