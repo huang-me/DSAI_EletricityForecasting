@@ -210,7 +210,7 @@ def fitting_model(data,weather_included=False,holiday_included=False,CNY_season=
 
     #Predict one year ahead
     m.fit(data_history)
-    future_date = m.make_future_dataframe(periods=7)
+    future_date = m.make_future_dataframe(periods=8)
 
     if weather_included:
         '''

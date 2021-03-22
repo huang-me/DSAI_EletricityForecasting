@@ -23,3 +23,6 @@ Datas
 Electric load history files (2014-2021)  
 Holiday datas (2010-2021)  
 Calcualte date split date into 4 seasons  
+
+For more analysis about the data, please refer to forcast.ipynb
+---
